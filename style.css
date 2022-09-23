@@ -1,0 +1,84 @@
+:root {
+    --main-Color: rgb(95, 186, 174);
+    --main-Margin: 40px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    margin-bottom: var(--main-Margin);
+}
+
+h1 {
+    color: var(--main-Color);
+    margin-bottom: var(--main-Margin);
+}
+
+p {
+    margin-bottom: var(--main-Margin);
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: var(--main-Margin);
+    font-weight: bold;
+}
+
+select {
+    background-color: transparent;
+    padding: 5px;
+    border-color: #b3b2b2;
+    font-size: 22px;
+}
+
+.base-value {
+    width: 40px;
+    text-align: right;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    flex: 1;
+}
+
+.base-value:focus {
+    outline: none;
+}
+
+.swap {
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: var(--main-Color);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.rate {
+    color: var(--main-Color);
+    font-weight: normal;
+}
+
+.target-value {
+    font-size: 30px;
+}
